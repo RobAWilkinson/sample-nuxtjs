@@ -1,6 +1,6 @@
 <template>
     <h1 class="title">
-        Welcome to Nuxt.js
+        Welcome to Rob's site
     </h1>
 </template>
 
