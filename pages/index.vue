@@ -2,9 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
-        Welcome to Nuxt.js
-      </h1>
+      <Header />
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -41,23 +39,6 @@ export default {}
   text-align: center;
 }
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 
 .subtitle {
   font-weight: 300;
