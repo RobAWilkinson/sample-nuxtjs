@@ -1,8 +1,5 @@
 <template>
     <article>
-        <pre>
-            {{ article }}
-        </pre>
         <nuxt-content :document="article" />
     </article>
 </template>
