@@ -8,7 +8,7 @@
           href="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button--green ring-0"
         >
           Documentation
         </a>
@@ -16,7 +16,7 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button--grey ring-0"
         >
           GitHub
         </a>
