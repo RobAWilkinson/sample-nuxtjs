@@ -8,14 +8,12 @@
           class="flex items-center justify-between font-bold text-sm text-white uppercase no-underline"
         >
           <li>
-            <a class="hover:text-gray-200 hover:underline px-4" href="#"
-              >Shop</a
-            >
+            <NuxtLink class="hover:text-gray-200 hover:underline px-4" to="/"
+              >Home</NuxtLink>
           </li>
           <li>
-            <a class="hover:text-gray-200 hover:underline px-4" href="#"
-              >About</a
-            >
+            <NuxtLink class="hover:text-gray-200 hover:underline px-4" to="/about"
+              >About</NuxtLink>
           </li>
         </ul>
       </nav>
