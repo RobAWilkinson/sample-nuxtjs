@@ -1,14 +1,8 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <Header />
-      <div class="links">
-        <NuxtLink to="/blog/">
-        Blogs
-        </NuxtLink>
-      </div>
-    </div>
+    <h1>Blog</h1>
+    <h2>Index</h2>
+    
   </div>
 </template>
 
