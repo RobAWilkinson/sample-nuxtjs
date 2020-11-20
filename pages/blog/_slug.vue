@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full md:w-2/3 flex flex-col items-center px-3">
+  <section class="max-w-prose mx-auto flex flex-col items-center px-3">
     <article class="flex flex-col shadow my-4">
       <div v-if="article.image">
         <a href="#" class="hover:opacity-75">
@@ -45,5 +45,9 @@ export default {
 }
 .nuxt-content p {
   @apply pb-3;
+}
+.nuxt-content ul {
+  @apply list-disc list-inside;
+
 }
 </style>
