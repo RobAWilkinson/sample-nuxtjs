@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Nuxt />
+    <Nav />
+    <div class="container mx-auto flex flex-wrap py-6">
+      <Nuxt />
+    </div>
   </div>
 </template>
 

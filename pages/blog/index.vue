@@ -1,13 +1,19 @@
 <template>
-  <div class="container">
-    <h1>Blog</h1>
-    <h2>Index</h2>
-    
-  </div>
+  <section class="w-full md:w-2/3 flex flex-col items-center px-3">
+    <h1>Test</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab exercitationem corporis laborum quod dicta consectetur. Odit ipsa, deleniti voluptate hic quo nobis nemo accusamus cumque esse dicta dolore! Nisi.
+  </section>
 </template>
 
 <script>
-export default {}
+export default {
+    async asyncData({ $content, params }) {
+      const articles = await $content("articles").fetch();
+      return {
+        articles,
+      };
+    },
+}
 </script>
 
 <style>
@@ -19,7 +25,6 @@ export default {}
   align-items: center;
   text-align: center;
 }
-
 
 .subtitle {
   font-weight: 300;
@@ -33,3 +38,4 @@ export default {}
   padding-top: 15px;
 }
 </style>
+
