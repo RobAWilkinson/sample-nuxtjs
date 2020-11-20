@@ -1,7 +1,10 @@
 <template>
   <section class="w-full md:w-2/3 flex flex-col items-center px-3">
-    <h1>Test</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ab exercitationem corporis laborum quod dicta consectetur. Odit ipsa, deleniti voluptate hic quo nobis nemo accusamus cumque esse dicta dolore! Nisi.
+    <ul v-for="article in articles" :key="article.title">
+      <li>
+        <NuxtLink :to="getUrl(article)">{{ article.title }}</NuxtLink>
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -9,10 +12,17 @@
 export default {
     async asyncData({ $content, params }) {
       const articles = await $content("articles").fetch();
+      console.log(articles)
       return {
         articles,
       };
     },
+    methods: {
+      getUrl(article) {
+        return `/blog/${article.slug}`
+      }
+
+    }
 }
 </script>
 
