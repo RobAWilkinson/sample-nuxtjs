@@ -1,41 +1,32 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <Header />
-      <div class="links">
-        <NuxtLink to="/blog/">
-        Blogs
-        </NuxtLink>
-      </div>
-    </div>
+<div >
+  <div v-for="post in posts" class="prose prose:sm" >
+    <h2>
+        <NuxtLink :to="slugify(post.slug)">{{ post.title }}</NuxtLink>
+      </h2>
+    <span>{{post.createdAt }}</span>
+     <p>
+       {{ post.snippet }}...
+      </p>
   </div>
+</div>
+
+
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData ({ $content }) {
+    let posts = await $content('articles').sortBy('createdAt', 'desc').fetch()
+    return { posts }
+  },
+  methods: {
+    slugify(slug) {
+      return `blog/${slug}`;
+    }
+  }
+}
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

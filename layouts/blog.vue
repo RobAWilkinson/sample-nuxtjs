@@ -1,9 +1,7 @@
 <template>
     <div>
         <Nav />
-        <TextHeader />
-        <TopicNav />
-        <div class="container mx-auto flex flex-wrap py-6">
+        <div class="container w-full md:max-w-3xl mx-auto pt-20">
             <Nuxt />
         </div>
         <Footer />

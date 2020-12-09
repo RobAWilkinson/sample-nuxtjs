@@ -1,15 +1,36 @@
 <template>
-  <footer class="w-full border-t bg-white pb-12">
-    <div class="w-full container mx-auto flex flex-col items-center">
-      <div
-        class="flex flex-col md:flex-row text-center md:text-left md:justify-between py-6"
-      >
-        <a href="#" class="uppercase px-3">About Us</a>
-        <a href="#" class="uppercase px-3">Privacy Policy</a>
-        <a href="#" class="uppercase px-3">Terms & Conditions</a>
-        <a href="#" class="uppercase px-3">Contact Us</a>
-      </div>
-      <div class="uppercase pb-6">&copy; myblog.com</div>
-    </div>
-  </footer>
-</template>
+<footer class="bg-white border-t border-gray-400 shadow">
+		<div class="container max-w-4xl mx-auto flex py-8">
+
+			<div class="w-full mx-auto flex flex-wrap">
+				<div class="flex w-full md:w-1/2 ">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">About</h3>
+						<p class="py-4 text-gray-600 text-sm">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+						</p>
+					</div>
+				</div>
+
+				<div class="flex w-full md:w-1/2">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">Social</h3>
+						<ul class="list-reset items-center text-sm pt-3">
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+							<li>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</footer>
