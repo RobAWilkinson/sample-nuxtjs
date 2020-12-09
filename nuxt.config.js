@@ -1,3 +1,6 @@
+import tailwindTypography from '@tailwindcss/typography'
+const path = require('path');
+
 
 export default {
   /*
@@ -29,6 +32,7 @@ export default {
   ** Global CSS
   */
   css: [
+      '~assets/styles/tailwind.css', 
   ],
   /*
   ** Plugins to load before mounting the App
@@ -45,7 +49,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules
@@ -62,5 +66,15 @@ export default {
       config.resolve = config.resolve || {}
       config.resolve.symlinks = false
     }
+  },
+  postcss: {
+    plugins: {
+      'postcss-import': {},
+      tailwindcss: path.resolve(__dirname, './tailwind.config.js'),
+      'postcss-nested': {}
+    }
+  },
+  preset: {
+    stage: 1 // see https://tailwindcss.com/docs/using-with-preprocessors#future-css-featuress
   }
 }
