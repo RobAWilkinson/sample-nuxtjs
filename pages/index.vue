@@ -6,7 +6,7 @@
       </h2>
     <span>{{prettyDate(post.createdAt) }}</span>
      <p>
-       {{ post.snippet }}...
+       {{ post.snippet }}
       </p>
   </div>
 </div>

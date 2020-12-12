@@ -4,13 +4,13 @@ description: My journey on 75 Hard
 img: first-blog-post.jpg
 alt: my first blog post
 author: Rob Wilkinson
-snippet: You can really only do 3 things, and really only 2 of those well, if you try to do 4 things somethings going to slip. Get ahead on hydration, a lot easier to drink a waterbottle in bed in the morning than it is to drink a half gallon at bedtime. Eating clan and planning out eating clean can actually get you really full, you just have to do it right.
+snippet: You can really only do three things, and really only 2 of those well, if you try to do four things, something will slip. Get ahead on hydration, a lot easier to drink a water bottle first thing in the morning than to drink a half-gallon at bedtime. Eating clean and planning out eating clean can get you full; you just have to do it right.
 ---
 ## Lessons learned
 
 You can really only do three things, and really only 2 of those well, if you try to do four things, something will slip.
 
-get ahead on hydration, a lot easier to drink a water bottle in bed in the morning than it is to drink a half-gallon at bedtime
+Get ahead on hydration, a lot easier to drink a water bottle first thing in the morning than to drink a half-gallon at bedtime.
 
 Eating clean and planning out eating clean can get you full; you just have to do it right.
 
@@ -26,12 +26,11 @@ There are a million ways to cook a chicken breast.
 
 Sweet potatoes in an instant pot are clutch.
 
-I mostly stuck to [Metallicadpa PPL spreadsheet here](https://liftvault.com/programs/strength/reddit-ppl/) but had to make changes accessory lifts depending on gym equipment. My normal days went like this:
+I mostly stuck to [Metallicadpa PPL spreadsheet here](https://liftvault.com/programs/strength/reddit-ppl/) but had to make changes accessory lifts depending on gym equipment. My typical days went like this:
 
 - Leg day: 5x5 back squats, 3x12 front squats, one-legged exercises of some sort
 - Pull day: Sumo Deadlift, lots of pullups, lat pulldowns, alternating t-bar meadows rows, face pulls
 - Push day: Bench, bench a lot more
-
 
 
 
