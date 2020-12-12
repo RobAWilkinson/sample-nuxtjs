@@ -20,7 +20,7 @@
           class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl"
           to="/"
         >
-          Minimal Blog
+          Rob Wilkinson's Blog
         </NuxtLink>
       </div>
 
@@ -40,7 +40,7 @@
         </button>
       </div>
 
-      <div
+      <!-- <div
         class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20"
         id="nav-content"
       >
@@ -67,7 +67,7 @@
             >
           </li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </nav>
 </template>

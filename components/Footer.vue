@@ -7,7 +7,8 @@
 					<div class="px-8">
 						<h3 class="font-bold text-gray-900">About</h3>
 						<p class="py-4 text-gray-600 text-sm">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+							Writings on life and work by Rob Wilkinson
+							
 						</p>
 					</div>
 				</div>
@@ -17,13 +18,13 @@
 						<h3 class="font-bold text-gray-900">Social</h3>
 						<ul class="list-reset items-center text-sm pt-3">
 							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="https://www.instagram.com/sumobob88/">Instagram</a>
 							</li>
 							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="https://twitter.com/robawilkinson">Twitter</a>
 							</li>
 							<li>
-								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="#">Add social link</a>
+								<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="https://github.com/robawilkinson">Github</a>
 							</li>
 						</ul>
 					</div>
