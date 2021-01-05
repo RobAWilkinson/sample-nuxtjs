@@ -4,7 +4,7 @@
     <h2>
         <NuxtLink :to="slugify(post.slug)">{{ post.title }}</NuxtLink>
       </h2>
-    <span>{{prettyDate(post.createdAt) }}</span>
+    <span>{{ post.timestamp }}</span>
      <p>
        {{ post.snippet }}
       </p>

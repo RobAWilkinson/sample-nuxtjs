@@ -1,9 +1,11 @@
 ---
 title: Network development
 description: Building my personal network in 2021
+timestamp: January 4, 2021
 alt: my first blog post
 author: Rob Wilkinson
-snippet: 
+snippet: For 2021, want to focus on building out my own personal network of individuals, within my field.
+
 ---
 ## Network Building strategy
 

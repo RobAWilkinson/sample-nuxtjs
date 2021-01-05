@@ -1,6 +1,7 @@
 ---
 title: 75 Hard
 description: My journey on 75 Hard
+timestamp: December 04, 2020
 img: first-blog-post.jpg
 alt: my first blog post
 author: Rob Wilkinson
